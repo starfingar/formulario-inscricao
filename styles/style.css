@@ -87,6 +87,19 @@ main {
   outline: none;
 }
 
+.input-group input:focus {
+  outline: none;
+  border-color: #E5A93C;
+}
+
+.input-group input.error {
+  border-color: red;
+}
+
+.button-container button:active {
+  transform: translateY(-1px);
+}
+
 .button-container {
   display: flex;
   justify-content: center;
